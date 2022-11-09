@@ -1,0 +1,133 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cube {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: aqua;
+    z-index: -1;
+}
+
+#start {
+    z-index: 1;
+}
+
+#stop {
+    z-index: 1;
+} */
+
+.timers {
+    background: url('../a.jpg') center / cover no-repeat;
+    /* background: black; */
+    width: 100%;
+    height: 640px;
+}
+
+
+.glaz1 {
+    background: rgb(255, 0, 0);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 239px;
+    left: 770px;
+    box-shadow: 0px 0px 50px 40px rgb(255, 0, 0);
+}
+
+.glaz2 {
+    background: rgb(217, 255, 0);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 233px;
+    left: 560px;
+    box-shadow: 0px 0px 50px 40px rgb(217, 255, 0);
+}
+
+.timer_hours {
+    font-size: 36px;
+    position: absolute;
+    top: 80px;
+    left: 643px;
+    color: rgb(83, 140, 247);
+}
+
+.timer_minutes {
+    font-size: 36px;
+    position: absolute;
+    top: 80px;
+    left: 690px;
+    color: rgb(83, 140, 247);
+}
+
+.timer_seconds {
+    font-size: 36px;
+    position: absolute;
+    top: 150px;
+    left: 668px;
+    color: rgb(0, 255, 13);
+}
+
+.clock1 {
+    background: rgba(50, 205, 71, 0.616);
+    width: 126px;
+    height: 60px;
+    position: absolute;
+    border-radius: 40px;
+    top: 70px;
+    left: 620px;
+}
+
+.clock2 {
+    background: black;
+    width: 106px;
+    height: 40px;
+    position: absolute;
+    top: 80px;
+    left: 630px;
+    border-radius: 40px;
+}
+
+.kal1 {
+    background: rgb(150, 14, 14);
+    width: 300px;
+    height: 60px;
+    position: absolute;
+    top: 170px;
+    left: 90px;
+}
+
+.kal2 {
+    background: rgb(92, 83, 66);
+    width: 300px;
+    height: 180px;
+    position: absolute;
+    top: 230px;
+    left: 90px;
+}
+
+.kal3 {
+    background: black;
+    width: 298px;
+    height: 178px;
+    position: absolute;
+    border-radius: 4px;
+    top: 231px;
+    left: 91px;
+}
+
+.timer_days {
+    font-size: 90px;
+    position: absolute;
+    top: 261px;
+    left: 90px;
+    color: rgb(0, 255, 13);
+}
